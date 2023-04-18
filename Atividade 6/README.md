@@ -36,8 +36,11 @@ Em linguagem C, podemos usar um vetor criado dinamicamente para armazenar os pix
 * nc = número de colunas da matriz e
 * k = índice do vetor
 
+<div align="center">
 
 ![Representação Linear](https://github.com/UNIFAL-MG/imagem-caioreius/blob/main/representacaolinear.svg)
+
+</div>
 
 Na imagem exemplo, o elemento da posição i = 2 e j = 1, corresponde ao elemento de posição k = 2 * 3 + 1 = 7, conforme está ilustrado.
 
