@@ -12,5 +12,5 @@ lista de exercícios, trabalhos), sendo uma aba "Teórica" e uma aba "Prática".
 
 <p align="justify"> Aqui será onde colocarei algumas das atividades práticas da disciplina de Algoritmos e Estrutura de Dados (AEDs I). </p>
 
-<p align="justify"> Nela aprendemos a primeira linguagem de programação do curso, denominada Linguagem **C**. Essa é uma linguagem muito utilizada 
+<p align="justify"> Nela aprendemos a primeira linguagem de programação do curso, denominada Linguagem C. Essa é uma linguagem muito utilizada 
 no desenvolvimento de software básico (sistemas operacionais, linguagens de programação, jogos e bibliotecas de rotinas). </p>
