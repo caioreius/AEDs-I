@@ -4,8 +4,10 @@
 
 ### Descrição
 
-Uma imagem digital é uma matriz de pixels (picture elements). O número de linhas e colunas definem a dimensão dessa matriz e o tipo (binária, tons de cinza e colorida), define, de certa forma, o número de bits necessário para representação dos pixels. Então, para armazenar uma imagem 1000x1000 com 256 tons de cinza, são necessários 1000x1000x8 bits (onde $2^8 =256$).
-Um formato especialmente interessante é o formato PNM (Portable Any Map), composto pelos formatos PPM (Portable Pixmap Format) para imagens coloridas, PGM (Portable Greymap Format) para imagens em tons de cinza e PBM (Portable Bitmap Format) para imagens binárias. Neste formato, de forma conveniente, no entanto, pouco eficiente com relação ao espaço de armazenamento, todas as informações da imagem são gravados num arquivo texto. Nesta atividade, especificamente, usaremos o formato PBM - ASCII. Um exemplo de imagem nesse formato é:
+<p align="justify"> Uma imagem digital é uma matriz de pixels (picture elements). O número de linhas e colunas definem a dimensão dessa matriz e o tipo (binária, tons de cinza e colorida), define, de certa forma, o número de bits necessário para representação dos pixels. Então, para armazenar uma imagem 1000x1000 com 256 tons de cinza, são necessários 1000x1000x8 bits (onde $2^8 =256$).
+</p>
+<p align="justify">Um formato especialmente interessante é o formato PNM (Portable Any Map), composto pelos formatos PPM (Portable Pixmap Format) para imagens coloridas, PGM (Portable Greymap Format) para imagens em tons de cinza e PBM (Portable Bitmap Format) para imagens binárias. Neste formato, de forma conveniente, no entanto, pouco eficiente com relação ao espaço de armazenamento, todas as informações da imagem são gravados num arquivo texto. Nesta atividade, especificamente, usaremos o formato PBM - ASCII. Um exemplo de imagem nesse formato é:
+</p>
 
 ```
 P1
@@ -35,7 +37,7 @@ Em linguagem C, podemos usar um vetor criado dinamicamente para armazenar os pix
 * k = índice do vetor
 
 
-![Representação Linear](representacaolinear.svg)
+![Representação Linear](https://github.com/UNIFAL-MG/imagem-caioreius/blob/main/representacaolinear.svg)
 
 Na imagem exemplo, o elemento da posição i = 2 e j = 1, corresponde ao elemento de posição k = 2 * 3 + 1 = 7, conforme está ilustrado.
 
